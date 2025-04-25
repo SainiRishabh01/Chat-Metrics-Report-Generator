@@ -38,15 +38,15 @@ project/
 ├── requirements.txt          # 📜 List of Python dependencies
 ├── streamlit_app.py          # 🌐 Streamlit web application for interactive report generation
 
+Install all the necessary dependencies effortlessly by running:
 
- Getting Started
+🚀 Getting Started
 There are two convenient ways to generate your chat metrics report:
-
 1. 💻 Using the Command Line Script
 For direct and automated report generation, use the main.py script:
-
-Bash
 python main.py
+
+
 Upon execution, this command will:
 Read and process the data from your data_dump.csv file.
 Calculate all the defined chat and agent metrics.
@@ -54,29 +54,9 @@ Generate a comprehensive report saved as generated_report.xlsx in the project di
 2. 🌐 Using the Streamlit Web Application
 For a user-friendly, interactive experience, leverage the Streamlit web application:
 Launch the App: Open your terminal and run:
-Bash
 streamlit run streamlit_app.py
+
+
 Access in Browser: A URL will be displayed in your terminal (typically http://localhost:8501). Open this link in your web browser.
-
 Upload Your Data: You'll find a file uploader within the application. Simply upload your data_dump.csv file.
-
 Generate and Download: The application will process your data, generate the metrics report, and provide a convenient button to download the report as an Excel file.
-
-📊 Metrics Breakdown
-Here's a closer look at the valuable insights you'll gain:
-
-Chat Metrics:
-Incoming Chats: The total number of chat conversations initiated.
-Unique Users: The count of distinct users who engaged in chat.
-Closed by Bot: The number of chats successfully resolved by automated bots.
-Bot Deflection Percentage: The proportion of chats handled by bots versus the total number of incoming chats, indicating bot effectiveness. $\qquad \text{Bot Deflection Percentage} = \frac{\text{Number of Chats Closed by Bot}}{\text{Total Incoming Chats}} \times 100%$
-Closed by Agents: The number of chats that required human agent intervention and were resolved by them.
-Agent Metrics:
-Avg Agent First Response Time (seconds): The average time taken by an agent to provide the initial response to a user's message.
-Avg Agent Chat Resolution Time (seconds): The average duration from the start of a chat to its final resolution by an agent.
-Average Agent CSAT Score: The mean Customer Satisfaction score provided by users after interacting with agents.
-Business Hours CSAT [10AM - 5PM]: The average CSAT score specifically for interactions occurring between 10:00 AM and 5:00 PM.
-Outside Business Hours CSAT: The average CSAT score for interactions taking place outside the defined business hours.
-Miscellaneous Metrics (Bonus Insights):
-Half-Hourly Chats: A breakdown of the number of chats initiated within each 30-minute interval throughout the day, revealing peak activity times.
-Agent Activity Analysis: For each agent, track the total time spent active in chats, the time they were free or available, and the cumulative total time recorded within the dataset.
