@@ -28,15 +28,15 @@ The following Python libraries are essential for this project:
 
 Install all the necessary dependencies effortlessly by running:
 
-project/
-├── app/
-│   ├── processor.py          # 🧠 Core logic for data processing and metric calculations
-│   ├── report_generator.py   # 💾 Functionality to save calculated metrics to Excel
-│   └── __init__.py
-├── data_dump.csv             # 💾 Your chat data in CSV format (will be ignored by Git)
-├── main.py                   # 🚀 Command-line interface entry point for report generation
-├── requirements.txt          # 📜 List of Python dependencies
-├── streamlit_app.py          # 🌐 Streamlit web application for interactive report generation
+## project/
+## ├── app/
+## │   ├── processor.py          # 🧠 Core logic for data processing and metric calculations
+## │   ├── report_generator.py   # 💾 Functionality to save calculated metrics to Excel
+## │   └── __init__.py
+## ├── data_dump.csv             # 💾 Your chat data in CSV format (will be ignored by Git)
+## ├── main.py                   # 🚀 Command-line interface entry point for report generation
+## ├── requirements.txt          # 📜 List of Python dependencies
+## ├── streamlit_app.py          # 🌐 Streamlit web application for interactive report generation
 
 Install all the necessary dependencies effortlessly by running:
 
@@ -44,16 +44,17 @@ Install all the necessary dependencies effortlessly by running:
 There are two convenient ways to generate your chat metrics report:
 ## 1. 💻 Using the Command Line Script
 For direct and automated report generation, use the main.py script:
-## python main.py
 
+## python main.py
 
 Upon execution, this command will:
 Read and process the data from your data_dump.csv file.
 Calculate all the defined chat and agent metrics.
 Generate a comprehensive report saved as generated_report.xlsx in the project directory.
-##2. 🌐 Using the Streamlit Web Application
+## 2. 🌐 Using the Streamlit Web Application
 For a user-friendly, interactive experience, leverage the Streamlit web application:
 Launch the App: Open your terminal and run:
+
 ## streamlit run streamlit_app.py
 
 
