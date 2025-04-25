@@ -40,23 +40,23 @@ project/
 
 Install all the necessary dependencies effortlessly by running:
 
-🚀 Getting Started
+##🚀 Getting Started
 There are two convenient ways to generate your chat metrics report:
-1. 💻 Using the Command Line Script
+## 1. 💻 Using the Command Line Script
 For direct and automated report generation, use the main.py script:
-python main.py
+## python main.py
 
 
 Upon execution, this command will:
 Read and process the data from your data_dump.csv file.
 Calculate all the defined chat and agent metrics.
 Generate a comprehensive report saved as generated_report.xlsx in the project directory.
-2. 🌐 Using the Streamlit Web Application
+##2. 🌐 Using the Streamlit Web Application
 For a user-friendly, interactive experience, leverage the Streamlit web application:
 Launch the App: Open your terminal and run:
-streamlit run streamlit_app.py
+## streamlit run streamlit_app.py
 
 
-Access in Browser: A URL will be displayed in your terminal (typically http://localhost:8501). Open this link in your web browser.
-Upload Your Data: You'll find a file uploader within the application. Simply upload your data_dump.csv file.
-Generate and Download: The application will process your data, generate the metrics report, and provide a convenient button to download the report as an Excel file.
+## Access in Browser: A URL will be displayed in your terminal (typically http://localhost:8501). Open this link in your web browser.
+## Upload Your Data: You'll find a file uploader within the application. Simply upload your data_dump.csv file.
+## Generate and Download: The application will process your data, generate the metrics report, and provide a convenient button to download the report as an Excel file.
